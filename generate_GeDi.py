@@ -35,6 +35,7 @@ except ImportError:
 
 logger = logging.getLogger(__name__)
 
+MAX_LENGTH = 2048
 
 MODEL_CLASSES = {
     "gpt2": (GPT2Config, GPT2LMHeadModel, GPT2Tokenizer),
